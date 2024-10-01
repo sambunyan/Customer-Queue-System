@@ -1,0 +1,47 @@
+:root {
+  --aqua: aqua;
+  --darkblue: darkblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.headings {
+  color: var(--darkblue);
+  text-decoration: underline;
+  text-align: center;
+}
+
+.all-buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 8vh;
+  margin-top: 10px;
+}
+
+.main-queues-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+
+  .app-queues-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

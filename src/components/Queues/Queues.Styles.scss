@@ -1,0 +1,24 @@
+.queue-displays {
+    display: flex;
+    width: 48vw;
+    height: 70vh;
+    border: solid 2px darkblue;
+    background-color: var(--aqua);
+    overflow-wrap: anywhere;
+  }
+  
+  .reference-queue-display {
+    width: 98vw;
+    height: 45vh;
+    border: solid 2px darkblue;
+    background-color: var(--aqua);
+  }
+  
+  .queue-heading-containers {
+    margin-bottom: 8px;
+  }
+
+  .customer-styles {
+    margin-right: 10px;
+  }
+  
